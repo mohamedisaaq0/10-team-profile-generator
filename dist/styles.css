@@ -1,0 +1,111 @@
+/*  ----- ----- ----- ----- ----- Root / Body */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  ----- ----- ----- ----- ----- Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+header h1 {
+  color: white;
+  font-size: 25px;
+}
+
+/*  ----- ----- ----- ----- ----- Team profiles */
+#team-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#employee-card {
+  background-color: rgb(245, 245, 245);
+  width: 195px;
+  border-radius: 5px;
+  margin: 15px 15px;
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*  ----- Team head section */
+#head-container {
+  height: 70px;
+  background-color: rgb(0, 106, 255);
+  color: white;
+  display: flex;
+}
+#card-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#card-head img {
+  margin-right: 10px;
+  width: 20px;
+}
+#card-head h3,
+#role {
+  margin-left: 10px;
+}
+
+#role {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#role h4 {
+  font-size: 14px;
+}
+/*  ----- Team body section */
+#card-body {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#body-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  height: 70%;
+}
+
+#body-container hr {
+  opacity: 0.4;
+}
+#body-container p,
+#body-email,
+#body-info {
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
+#body-info:hover,
+#body-email:hover,
+#ID:hover {
+  background-color: rgb(229, 229, 229);
+  transition: 0.1s all ease-in-out;
+}
