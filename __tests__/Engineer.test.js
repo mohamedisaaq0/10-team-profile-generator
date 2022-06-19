@@ -9,7 +9,7 @@ const engineer1 = new Engineer(
 );
 
 // Declare this object to test if 'Employee' is chosen as the default role if role is empty
-const engineer2 = new Engineer("Niv", 0, "Niv@hotmail.ca", "", "Nimran");
+const engineer2 = new Engineer("Moh", 0, "test@gmail.com", "", "Mohamed");
 
 test("Creates Engineer object with all valid values", () => {
   expect(engineer1.name).toEqual(expect.any(String));
